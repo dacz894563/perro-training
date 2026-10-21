@@ -1,0 +1,793 @@
+[index.html](https://github.com/user-attachments/files/33745823/index.html)
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Perro Training — Club Canino Boutique | Coyoacán, CDMX</title>
+<!-- Google Fonts: Epilogue & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration verbatim from theme -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "clay-terracotta": "#B85C38",
+            "sage-botanical": "#6E8271",
+            "on-tertiary": "#ffffff",
+            "secondary-fixed": "#c9ebce",
+            "inverse-surface": "#31312c",
+            "sand-neutral": "#EDE6DA",
+            "forest-canopy": "#263B2D",
+            "on-error-container": "#93000a",
+            "surface-variant": "#e5e2db",
+            "error-container": "#ffdad6",
+            "secondary-container": "#c6e8cc",
+            "inverse-primary": "#ffb59a",
+            "surface-container": "#f0eee7",
+            "on-tertiary-container": "#ffffff",
+            "on-primary-container": "#ffffff",
+            "tertiary": "#506253",
+            "on-primary": "#ffffff",
+            "on-secondary-container": "#4b6a53",
+            "surface-container-low": "#f6f3ec",
+            "on-error": "#ffffff",
+            "clay-terracotta-light": "#E8B4A2",
+            "error": "#ba1a1a",
+            "sage-wash": "#E4ECE5",
+            "outline-variant": "#dbc1b8",
+            "primary-fixed-dim": "#ffb59a",
+            "primary-fixed": "#ffdbcf",
+            "tertiary-container": "#687b6b",
+            "surface-container-highest": "#e5e2db",
+            "tertiary-fixed-dim": "#b8ccba",
+            "tertiary-fixed": "#d3e8d5",
+            "on-surface-variant": "#55433c",
+            "primary": "#994422",
+            "charcoal-muted": "#525A55",
+            "surface-bright": "#fcf9f2",
+            "surface-dim": "#dcdad3",
+            "background": "#fcf9f2",
+            "on-secondary": "#ffffff",
+            "surface-tint": "#9a4523",
+            "on-secondary-fixed": "#03210f",
+            "on-surface": "#1c1c18",
+            "canary-cream": "#FDFBF7",
+            "on-secondary-fixed-variant": "#304d38",
+            "secondary": "#47654f",
+            "on-tertiary-fixed-variant": "#394b3d",
+            "secondary-fixed-dim": "#adcfb3",
+            "inverse-on-surface": "#f3f0e9",
+            "sand-border": "#DFD6C7",
+            "surface": "#fcf9f2",
+            "clay-terracotta-dark": "#8C3F22",
+            "outline": "#88726b",
+            "deep-charcoal": "#1F2321",
+            "on-tertiary-fixed": "#0e1f14",
+            "on-primary-fixed": "#380d00",
+            "primary-container": "#b85c38",
+            "on-primary-fixed-variant": "#7b2f0e",
+            "surface-container-lowest": "#ffffff",
+            "on-background": "#1c1c18",
+            "surface-container-high": "#ebe8e1"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-lg": "2rem",
+            "space-md": "1.25rem",
+            "space-sm": "0.75rem",
+            "space-xl": "3.5rem",
+            "margin-mobile": "1.25rem",
+            "space-xs": "0.375rem",
+            "margin": "3rem",
+            "gutter": "1.5rem",
+            "gutter-mobile": "1rem"
+          },
+          "fontFamily": {
+            "title-lg": ["Plus Jakarta Sans"],
+            "headline-lg": ["Epilogue"],
+            "headline-sm": ["Epilogue"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-md": ["Epilogue"],
+            "title-md": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "display": ["Epilogue"],
+            "headline-lg-mobile": ["Epilogue"],
+            "display-mobile": ["Epilogue"],
+            "label-md": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"]
+          },
+          "fontSize": {
+            "title-lg": ["19px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "600" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "headline-sm": ["22px", { "lineHeight": "30px", "letterSpacing": "0", "fontWeight": "600" }],
+            "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "title-md": ["17px", { "lineHeight": "24px", "letterSpacing": "0", "fontWeight": "600" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "body-lg": ["17px", { "lineHeight": "28px", "letterSpacing": "0", "fontWeight": "400" }],
+            "display": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "display-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0", "fontWeight": "400" }]
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-surface text-on-surface antialiased font-body-md selection:bg-clay-terracotta selection:text-canary-cream">
+<!-- ================= TOP NAVIGATION BAR (SHARED COMPONENT) ================= -->
+<header class="sticky top-0 w-full z-50 bg-canary-cream shadow-sm border-b border-sand-border">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 h-20">
+<!-- Brand Logo Anchor -->
+<a class="flex items-center gap-3 group" href="#">
+<div class="w-10 h-10 rounded-lg bg-forest-canopy flex items-center justify-center text-sand-neutral shadow-sm">
+<span class="material-symbols-outlined text-[24px]">pets</span>
+</div>
+<div class="flex flex-col">
+<span class="text-title-lg font-title-lg text-forest-canopy tracking-tight font-bold">Perro Training — Club Canino Boutique</span>
+<span class="text-label-sm font-label-sm text-charcoal-muted tracking-wider">AMACUZAC 3 · COYOACÁN, CDMX</span>
+</div>
+</a>
+<!-- Desktop Nav Links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-clay-terracotta font-title-md border-b-2 border-clay-terracotta pb-1 hover:text-clay-terracotta transition-all duration-200" href="#servicios">Servicios</a>
+<a class="text-charcoal-muted font-body-md transition-colors hover:text-clay-terracotta duration-200" href="#membresias">Membresías VIP</a>
+<a class="text-charcoal-muted font-body-md transition-colors hover:text-clay-terracotta duration-200" href="#filosofia">Filosofía</a>
+<a class="text-charcoal-muted font-body-md transition-colors hover:text-clay-terracotta duration-200" href="#ubicacion">Ubicación</a>
+</nav>
+<!-- Trailing Action Buttons -->
+<div class="hidden lg:flex items-center gap-3">
+<a class="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg border border-secondary text-secondary font-title-md text-sm hover:bg-sage-wash transition-colors duration-150" href="https://wa.me/525500000000" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>WhatsApp Club</span>
+</a>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-clay-terracotta text-canary-cream font-title-md text-sm hover:bg-clay-terracotta-dark shadow-sm hover:-translate-y-0.5 transition-all duration-150" href="#agendar">
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+<span>Agendar Valoración</span>
+</a>
+</div>
+<!-- Mobile Menu Trigger -->
+<button class="md:hidden p-2 rounded-lg text-forest-canopy hover:bg-surface-container" onclick="document.getElementById('mobile-drawer').classList.toggle('hidden')">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+<!-- Mobile Drawer -->
+<div class="hidden md:hidden px-6 py-4 bg-canary-cream border-t border-sand-border space-y-3" id="mobile-drawer">
+<a class="block py-2 text-clay-terracotta font-title-md" href="#servicios">Servicios</a>
+<a class="block py-2 text-charcoal-muted font-body-md" href="#membresias">Membresías VIP</a>
+<a class="block py-2 text-charcoal-muted font-body-md" href="#filosofia">Filosofía</a>
+<a class="block py-2 text-charcoal-muted font-body-md" href="#ubicacion">Ubicación</a>
+<div class="pt-3 flex flex-col gap-2">
+<a class="w-full text-center py-3 bg-clay-terracotta text-canary-cream font-title-md rounded-lg" href="#agendar">Agendar Valoración</a>
+<a class="w-full text-center py-2.5 border border-forest-canopy text-forest-canopy font-title-md rounded-lg" href="https://wa.me/525500000000">WhatsApp Club</a>
+</div>
+</div>
+</header>
+<!-- ================= 1. HERO SECTION ================= -->
+<section class="relative bg-surface-container-low pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden border-b border-sand-border">
+<!-- Architectural subtle backdrop glow -->
+<div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-sand-neutral blur-3xl opacity-60 pointer-events-none"></div>
+<div class="absolute top-1/2 -left-24 w-80 h-80 rounded-full bg-sage-wash blur-3xl opacity-50 pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Text Column -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-6">
+<!-- Editorial Pill Tag -->
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sage-wash border border-sand-border">
+<span class="w-2 h-2 rounded-full bg-forest-canopy animate-pulse"></span>
+<span class="text-label-sm font-label-sm text-forest-canopy tracking-widest uppercase">Evolución Perro Training · Coyoacán CDMX</span>
+</div>
+<!-- Main Title -->
+<h1 class="text-headline-lg-mobile md:text-display font-display text-forest-canopy tracking-tight">
+            Más que adiestramiento, el primer <span class="text-clay-terracotta italic font-normal">Club Canino Boutique</span> de Coyoacán.
+          </h1>
+<!-- Subtitle -->
+<p class="text-body-lg font-body-lg text-charcoal-muted max-w-2xl leading-relaxed">
+            La evolución natural de Perro Training: guardería con estimulación cognitiva, suites boutique sin jaulas, fiestas de cumpleaños perrunas y café de especialidad humano-canino bajo la filosofía <em>«aprender jugando»</em>.
+          </p>
+<!-- Dual Primary/Secondary CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2">
+<a class="inline-flex justify-center items-center gap-2 px-7 py-3.5 rounded-lg bg-clay-terracotta text-canary-cream font-title-md hover:bg-clay-terracotta-dark shadow-md hover:-translate-y-0.5 transition-all duration-200" href="#agendar">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+<span>Agendar Valoración Conductual</span>
+</a>
+<a class="inline-flex justify-center items-center gap-2 px-7 py-3.5 rounded-lg border-2 border-forest-canopy text-forest-canopy font-title-md hover:bg-sage-wash hover:-translate-y-0.5 transition-all duration-200" href="#membresias">
+<span class="material-symbols-outlined text-[20px]">workspace_premium</span>
+<span>Conoce nuestras Membresías</span>
+</a>
+</div>
+<!-- Trust Badges Cluster -->
+<div class="pt-6 border-t border-sand-border w-full grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[22px]">location_on</span>
+<span class="text-body-sm font-body-sm text-deep-charcoal">Amacuzac 3, Coyoacán</span>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[22px]">videocam</span>
+<span class="text-body-sm font-body-sm text-deep-charcoal">Monitoreo 24/7 en app</span>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[22px]">favorite</span>
+<span class="text-body-sm font-body-sm text-deep-charcoal">Filosofía 100% positiva</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual Showcase Bento / Layered Canvas -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-md lg:max-w-none">
+<!-- Main Hero Image Frame -->
+<div class="rounded-xl overflow-hidden border border-sand-border shadow-xl bg-canary-cream aspect-[4/5] relative">
+<img class="w-full h-full object-cover" data-alt="An elegant, well-behaved golden retriever in a sun-drenched minimalist courtyard with Mexican terracotta planters and green lush monstera leaves in Coyoacán. The background shows warm stucco architectural walls with high-end modern finishes, soft natural daylight, and a serene boutique hotel atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-8a2uLKdqqpDy74U4pA0hNEguv-5fKaQQPkIwVe2XwbFI-UiOp-uf0jslM3YdDOabD1gM3sdKIH-O2L2VSq5UOtkV2n_2lRBqp6Sc8jmrAf2GVdi-9T1oejngZa4Sl3a9ocWwwneNZkcAFRv7myg5iIseAsYVJcjFyBWKVfTVk94APiSegNMHH8JgnLp6GL5tLMU6Gaj-pgIndzkmaIu8bew9r72JbKuKZ-LzzDEHQ5FgT0RRyM3B"/>
+<!-- Floating Live Badge in Top Right -->
+<div class="absolute top-4 right-4 bg-canary-cream/90 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-sand-border flex items-center gap-2 shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-ping"></span>
+<span class="text-label-sm font-label-sm text-forest-canopy tracking-wide">Club Abierto Hoy</span>
+</div>
+</div>
+<!-- Overlapping Floating Architectural Micro-card -->
+<div class="absolute -bottom-6 -left-6 bg-canary-cream border border-sand-border p-4 rounded-xl shadow-lg max-w-[260px] hidden sm:flex items-center gap-3">
+<div class="w-12 h-12 rounded-lg bg-sage-wash flex items-center justify-center text-forest-canopy shrink-0">
+<span class="material-symbols-outlined text-[26px]">psychology</span>
+</div>
+<div>
+<p class="text-title-md font-title-md text-forest-canopy text-sm">Aprender Jugando</p>
+<p class="text-body-sm font-body-sm text-charcoal-muted text-xs">Educación cognitiva sin estrés ni violencia.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 2. SERVICIOS Y FASES DE EXPANSIÓN ================= -->
+<section class="py-20 md:py-28 max-w-7xl mx-auto px-6" id="servicios">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
+<span class="text-label-md font-label-md text-clay-terracotta tracking-widest uppercase mb-2">El Ecosistema Integral</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-forest-canopy">
+        Arquitectura de bienestar canino diseñada por fases
+      </h2>
+<p class="text-body-lg font-body-lg text-charcoal-muted mt-3">
+        Cada espacio en Amacuzac 3 está concebido con criterios etológicos, respeto animal y confort de hotelería boutique.
+      </p>
+</div>
+<!-- Anchor Service (Heroic Showcase Card) -->
+<div class="bg-canary-cream border border-sand-border rounded-xl p-8 md:p-12 mb-10 shadow-sm relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sand-neutral text-forest-canopy text-label-sm font-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Servicio Ancla Fundamental</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-forest-canopy">
+            Adiestramiento Canino Cognitivo &amp; Obediencia Premium
+          </h3>
+<p class="text-body-md font-body-md text-charcoal-muted leading-relaxed">
+            La raíz de Perro Training. Implementamos educación respetuosa fundamentada en neurociencia y vínculo cooperativo. Desarrollamos autonomía, autocontrol y resolución de problemas sin aversivos.
+          </p>
+<!-- Key Pillars Bullet Points -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px] mt-0.5">school</span>
+<span class="text-body-sm font-body-sm text-deep-charcoal"><strong>Filosofía «Aprender jugando»:</strong> Enfoque positivo y juegos mentales.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px] mt-0.5">groups</span>
+<span class="text-body-sm font-body-sm text-deep-charcoal"><strong>Masterclasses de tutores:</strong> Primeros auxilios veterinarios y TTouch.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px] mt-0.5">published_with_changes</span>
+<span class="text-body-sm font-body-sm text-deep-charcoal"><strong>Paquete Refresh:</strong> Refuerzo conductual diario durante su estancia.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px] mt-0.5">badge</span>
+<span class="text-body-sm font-body-sm text-deep-charcoal"><strong>Certificaciones:</strong> Adiestradores certificados y trato compasivo.</span>
+</div>
+</div>
+<div class="pt-4">
+<a class="inline-flex items-center gap-2 text-clay-terracotta font-title-md hover:underline" href="#agendar">
+<span>Programar evaluación conductual diagnóstica</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5">
+<div class="rounded-xl overflow-hidden border border-sand-border aspect-[16/11]">
+<img class="w-full h-full object-cover" data-alt="A professional positive-reinforcement dog trainer kneeling peacefully with a friendly border collie on an earthy clay terrace with lush garden plants in Coyoacán. The atmosphere is warm, calm, and architectural with soft natural sunlight highlighting clean equipment and genuine trust." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnlePEocrKF57wzfMbKciQVNAGxHwgOcZ64SSUlDNlefjGZQqR6vNYKJhfUKZU4bQpN56N-nZ7NPD7oRogNb6mCU2PN53UoEfNEWlL_Ds4OeugdnSXxkF3rt9vBeJrXUbK_JaMS01W8iGb1pbGAn0ROH4ugSHBCYWYC3TGaoJj7scCKeeg58DT-BOTLjDrIsyf36hdUnJKMMRFZzJqLIVhOUUBpJteXBZvQsJJzN4X7cZLJsLYo5u1"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Expansion Phases 1, 2, 3 & Coming Soon (Bento Grid) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- FASE 1: Guardería & Day Club -->
+<div class="bg-canary-cream border border-sand-border rounded-xl p-6 flex flex-col justify-between hover:shadow-md transition-shadow duration-200">
+<div>
+<div class="w-full h-48 rounded-xl overflow-hidden mb-5 border border-sand-border">
+<img class="w-full h-full object-cover" data-alt="Joyful small and medium dogs engaging in social play in an open-air modern courtyard with a designated ball pit and gentle agility obstacles. The setting features warm earthy stucco walls, polished clean concrete, and shade-providing green botanical canopy." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBc63nNdgcEOVjWHuUfy2CXfoHwUusk_fec0g02srfBht66cfRhi-cenFXolcOUtAd5loPl-xNJBa4nt3f9XLpzwenOySm3ngvP0SK_eQflIjNJbiyq6vLNIaCL_ZZUJBd40nPe-3fwo5Ydqd_pl8yMEYBY_odBued3NRzKx_SgMQsIIlyXzFOxsQrDA4Hp1yKvm2MyoGst1jlzKwgnHcZFj1wsp9XVuSuZn1AtvY6x3KPcgaonpZe0"/>
+</div>
+<div class="flex items-center justify-between mb-2">
+<span class="text-label-sm font-label-sm text-forest-canopy bg-sage-wash px-2.5 py-1 rounded-full uppercase tracking-wider">Fase 1 · Activa</span>
+<span class="text-body-sm text-charcoal-muted">7:30 AM - 8:00 PM</span>
+</div>
+<h4 class="text-headline-sm font-headline-sm text-forest-canopy mb-2">
+            Guardería &amp; Day Club de Recreación
+          </h4>
+<p class="text-body-sm font-body-sm text-charcoal-muted mb-4 leading-relaxed">
+            Zonas temáticas divididas por temperamento y talla. Circuito agility recreativo, alberca de pelotas, estimulación olfativa matutina y siestas programadas con luces tenues y música relajante.
+          </p>
+</div>
+<ul class="text-body-sm font-body-sm text-deep-charcoal space-y-1.5 pt-2 border-t border-sand-border">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-clay-terracotta text-[18px]">check_circle</span> Horario escolar estructurado</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-clay-terracotta text-[18px]">check_circle</span> Filtro estricto de socialización</li>
+</ul>
+</div>
+<!-- FASE 2: Salón de Eventos Bark-Days -->
+<div class="bg-canary-cream border border-sand-border rounded-xl p-6 flex flex-col justify-between hover:shadow-md transition-shadow duration-200">
+<div>
+<div class="w-full h-48 rounded-xl overflow-hidden mb-5 border border-sand-border">
+<img class="w-full h-full object-cover" data-alt="A festive canine birthday party in an upscale garden patio with clean minimalist wooden tables, dog-safe peanut butter and pumpkin cakes, elegant party decor in terracotta and sage tones, and dogs happily socializing." src="https://lh3.googleusercontent.com/aida-public/AB6AXuArCe4SX2MibIKTQc-0u59Xw8YxsPPHQnOYZ42wG-hBslq7nRpkRbq_hUDtHdjUI6FmzFcJmPA6gdcNHESB_mlu-xN2QuA1iCJlt8KfSBC1xvMUpyqUgGAm6vXAq0pBMgWrZfECgO71jC9x6o8uNDVJGPKx9RDY2TyF8iJhcLhEjixSynwZZqehiCHNpJYYfEEBqe_J7puY4qJpv8f83nB-MgTQejMR0ADMHURJjoKv93ZK3a4teXzR"/>
+</div>
+<div class="flex items-center justify-between mb-2">
+<span class="text-label-sm font-label-sm text-clay-terracotta bg-primary-fixed px-2.5 py-1 rounded-full uppercase tracking-wider">Fase 2 · Popular</span>
+<span class="text-body-sm text-charcoal-muted">Fines de Semana</span>
+</div>
+<h4 class="text-headline-sm font-headline-sm text-forest-canopy mb-2">
+            Bark-Days &amp; Salón de Eventos
+          </h4>
+<p class="text-body-sm font-body-sm text-charcoal-muted mb-4 leading-relaxed">
+            El primer espacio exclusivo para cumpleaños caninos en Coyoacán. Pasteles aptos sin azúcar formulados por veterinarios, photo booth profesional, monitores dedicados y barra de "dog-beer" a base de caldo de huesos natural.
+          </p>
+</div>
+<ul class="text-body-sm font-body-sm text-deep-charcoal space-y-1.5 pt-2 border-t border-sand-border">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-clay-terracotta text-[18px]">check_circle</span> Paquetes con pastel e invitaciones</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-clay-terracotta text-[18px]">check_circle</span> Supervisión lúdica garantizada</li>
+</ul>
+</div>
+<!-- FASE 3: Hotel Boutique Canino -->
+<div class="bg-canary-cream border border-sand-border rounded-xl p-6 flex flex-col justify-between hover:shadow-md transition-shadow duration-200">
+<div>
+<div class="w-full h-48 rounded-xl overflow-hidden mb-5 border border-sand-border">
+<img class="w-full h-full object-cover" data-alt="A luxury cage-free dog suite interior featuring an orthopedic memory foam bed on warm wooden flooring, ambient warm recessed lighting, soft lavender diffuser mist, and an architectural glass door overlooking an indoor courtyard." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl_5fjv33pb13_tGtIMkP0-K8SHIB-nzPCZFUMfl-T6OdnRfLzPCP5uB3usl8RwRtd6ErxpKET7a6S1PP49168IGZIdl80DRYWOi_4lvcN0iPoVELRJvxiXMJKOv6fDdautf9o5Kdd-eSHy7FX_gPyWYGsiVCDBashIEcnKJey22fEZ9v6y2K7erbALi4dGVw8g2Cn0h0cuJNkAMzP64qHWcbgA1wE16z5yV1qtCSE_BwFL55ojOJE"/>
+</div>
+<div class="flex items-center justify-between mb-2">
+<span class="text-label-sm font-label-sm text-forest-canopy bg-sage-wash px-2.5 py-1 rounded-full uppercase tracking-wider">Fase 3 · Premium</span>
+<span class="text-body-sm text-charcoal-muted">Estancia 24/7</span>
+</div>
+<h4 class="text-headline-sm font-headline-sm text-forest-canopy mb-2">
+            Hotel Boutique Canino Sin Jaulas
+          </h4>
+<p class="text-body-sm font-body-sm text-charcoal-muted mb-4 leading-relaxed">
+            Hospedaje ético en suites privadas y familiares. Camas ortopédicas elevadas, control de temperatura, aromaterapia de lavanda, opción de room service con menú BARF y transmisión de cámaras 24/7 en app móvil.
+          </p>
+</div>
+<ul class="text-body-sm font-body-sm text-deep-charcoal space-y-1.5 pt-2 border-t border-sand-border">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-clay-terracotta text-[18px]">check_circle</span> Cámaras privadas en cada suite</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-clay-terracotta text-[18px]">check_circle</span> Reportes diarios fotográficos por WhatsApp</li>
+</ul>
+</div>
+</div>
+<!-- PROYECTO POSTERIOR / BANNER PRÓXIMAMENTE -->
+<div class="mt-8 bg-surface-container border border-sand-border rounded-xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-sand-neutral flex items-center justify-center text-forest-canopy shrink-0 mt-1">
+<span class="material-symbols-outlined text-[28px]">local_cafe</span>
+</div>
+<div>
+<div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-sand-border text-charcoal-muted text-label-sm font-label-sm uppercase mb-1">
+            Próximamente · Fase Posterior
+          </div>
+<h4 class="text-title-lg font-title-lg text-forest-canopy">
+            Cafetería Humano-Canina de Especialidad &amp; Co-working
+          </h4>
+<p class="text-body-sm font-body-sm text-charcoal-muted max-w-2xl mt-1">
+            Un santuario donde el perro es el comensal de honor: puppuccinos artesanales, horneados caninos sin conservadores, barra de café de especialidad de Chiapas y Oaxaca para tutores, doble esclusa de seguridad y mobiliario ergonómico con sujeción segura.
+          </p>
+</div>
+</div>
+<a class="shrink-0 px-5 py-2.5 rounded-lg border border-forest-canopy text-forest-canopy font-title-md hover:bg-sage-wash transition-colors duration-150" href="https://wa.me/525500000000">
+        Recibir Notificación
+      </a>
+</div>
+</section>
+<!-- ================= 3. MEMBRESÍAS "SOCIO VIP" ================= -->
+<section class="py-20 md:py-28 bg-surface-container-low border-y border-sand-border" id="membresias">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="text-label-md font-label-md text-clay-terracotta tracking-widest uppercase mb-2">Comunidad Recurrente</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-forest-canopy">
+          Membresías Socio VIP Perro Training
+        </h2>
+<p class="text-body-lg font-body-lg text-charcoal-muted mt-3">
+          Rutina, sociabilización balanceada y beneficios exclusivos en el ecosistema canino más cuidado de la Ciudad de México.
+        </p>
+</div>
+<!-- Pricing / Membership Cards Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+<!-- PLAN 1: Pase Club Recreativo -->
+<div class="bg-canary-cream border border-sand-border rounded-xl p-8 flex flex-col justify-between shadow-sm">
+<div>
+<div class="text-label-sm font-label-sm text-charcoal-muted uppercase tracking-wider mb-2">Iniciación y Socialización</div>
+<h3 class="text-headline-sm font-headline-sm text-forest-canopy mb-3">Pase Club Recreativo</h3>
+<p class="text-body-sm font-body-sm text-charcoal-muted mb-6">
+              Ideal para tutores que requieren días programados de guardería con balance físico y mental en Coyoacán.
+            </p>
+<div class="mb-6 pb-6 border-b border-sand-border">
+<span class="text-display-mobile font-display text-forest-canopy">$3,200</span>
+<span class="text-body-sm text-charcoal-muted"> / mes</span>
+</div>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-deep-charcoal">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span>2 días semanales de guardería Day Club</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span>Rutina de estimulación cognitiva matutina</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span>Reporte digital de actividades y fotos</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span>Monitoreo en app durante horas escolares</span>
+</li>
+</ul>
+</div>
+<a class="w-full text-center py-3 px-4 rounded-lg border border-forest-canopy text-forest-canopy font-title-md hover:bg-sage-wash transition-colors" href="#agendar">
+            Elegir Pase Recreativo
+          </a>
+</div>
+<!-- PLAN 2: Socio VIP Boutique (DESTACADO) -->
+<div class="bg-canary-cream border-2 border-clay-terracotta rounded-xl p-8 flex flex-col justify-between shadow-xl relative transform lg:-translate-y-2">
+<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-clay-terracotta text-canary-cream text-label-sm font-label-sm px-4 py-1 rounded-full uppercase tracking-wider shadow-sm">
+            Más Popular en Coyoacán
+          </div>
+<div>
+<div class="text-label-sm font-label-sm text-clay-terracotta uppercase tracking-wider mb-2">Cuidado Integral Premium</div>
+<h3 class="text-headline-sm font-headline-sm text-forest-canopy mb-3">Socio VIP Boutique</h3>
+<p class="text-body-sm font-body-sm text-charcoal-muted mb-6">
+              El paquete perfecto para el estilo de vida urbano moderno: juego estructurado, spa y beneficios de hotel.
+            </p>
+<div class="mb-6 pb-6 border-b border-sand-border">
+<span class="text-display-mobile font-display text-forest-canopy">$5,800</span>
+<span class="text-body-sm text-charcoal-muted"> / mes</span>
+</div>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-deep-charcoal">
+<li class="flex items-center gap-2.5 font-semibold">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px]">check</span>
+<span>4 días semanales de guardería Day Club</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px]">check</span>
+<span>1 baño relajante mensual con aromaterapia</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px]">check</span>
+<span>Acceso libre al circuito agility recreativo</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px]">check</span>
+<span><strong>15% de descuento</strong> en Suites Boutique Hotel</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px]">check</span>
+<span>Acceso prioritario a eventos Bark-Days</span>
+</li>
+</ul>
+</div>
+<a class="w-full text-center py-3.5 px-4 rounded-lg bg-clay-terracotta text-canary-cream font-title-md hover:bg-clay-terracotta-dark shadow transition-all duration-150" href="#agendar">
+            Ser Socio VIP Boutique
+          </a>
+</div>
+<!-- PLAN 3: Club Integral & Obediencia -->
+<div class="bg-canary-cream border border-sand-border rounded-xl p-8 flex flex-col justify-between shadow-sm">
+<div>
+<div class="text-label-sm font-label-sm text-forest-canopy uppercase tracking-wider mb-2">Máximo Rendimiento &amp; Confort</div>
+<h3 class="text-headline-sm font-headline-sm text-forest-canopy mb-3">Club Integral &amp; Obediencia</h3>
+<p class="text-body-sm font-body-sm text-charcoal-muted mb-6">
+              Para familias que exigen educación continua de alto estándar, hospedaje boutique y acompañamiento conductual.
+            </p>
+<div class="mb-6 pb-6 border-b border-sand-border">
+<span class="text-display-mobile font-display text-forest-canopy">$8,900</span>
+<span class="text-body-sm text-charcoal-muted"> / mes</span>
+</div>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-deep-charcoal">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span>Guardería ilimitada (Lunes a Sábado)</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span><strong>Programa continuo Refresh</strong> de Obediencia</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span>2 noches de Hotel Boutique incluidas al mes</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span>Asesoría conductual personalizada mensual</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+<span>Acceso VIP a masterclasses de tutores</span>
+</li>
+</ul>
+</div>
+<a class="w-full text-center py-3 px-4 rounded-lg border border-forest-canopy text-forest-canopy font-title-md hover:bg-sage-wash transition-colors" href="#agendar">
+            Solicitar Membresía Integral
+          </a>
+</div>
+</div>
+<!-- Guarantee Footer Note -->
+<div class="mt-12 text-center text-body-sm font-body-sm text-charcoal-muted">
+        * Todos los planes requieren evaluación conductual y esquema de vacunación completo para garantizar la bioseguridad del club.
+      </div>
+</div>
+</section>
+<!-- ================= 4. BENEFICIOS Y FILOSOFÍA "APRENDER JUGANDO" ================= -->
+<section class="py-20 md:py-28 max-w-7xl mx-auto px-6" id="filosofia">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Philosophy Narrative -->
+<div class="lg:col-span-5 space-y-6">
+<span class="text-label-md font-label-md text-clay-terracotta tracking-widest uppercase">Nuestra Filosofía Ética</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-forest-canopy">
+          Un club fundado en el respeto mutuo y la cognición canina.
+        </h2>
+<p class="text-body-md font-body-md text-charcoal-muted leading-relaxed">
+          En Perro Training desterramos los métodos arcaicos de sumisión y castigo. Concebimos al perro como un individuo con emociones complejas, capaz de colaborar y disfrutar de su aprendizaje en un entorno pacífico.
+        </p>
+<div class="bg-sage-wash border border-secondary-fixed p-5 rounded-xl">
+<p class="text-title-md font-title-md text-forest-canopy italic mb-1">
+            «Aprender jugando no es un eslogan, es un método pedagógico basado en la ciencia de la conducta animal.»
+          </p>
+<span class="text-label-sm font-label-sm text-charcoal-muted">Equipo de Etología y Bienestar Canino</span>
+</div>
+</div>
+<!-- 4 Pillars Grid -->
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Pilar 1 -->
+<div class="bg-canary-cream border border-sand-border p-6 rounded-xl hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-sand-neutral flex items-center justify-center text-clay-terracotta mb-4">
+<span class="material-symbols-outlined text-[28px]">cottage</span>
+</div>
+<h3 class="text-title-lg font-title-lg text-forest-canopy mb-2">Sin Jaulas ni Aislamiento</h3>
+<p class="text-body-sm font-body-sm text-charcoal-muted leading-relaxed">
+            Descanso digno en suites individuales climatizadas con camas terapéuticas y música sacra o ambiental para reducir el cortisol.
+          </p>
+</div>
+<!-- Pilar 2 -->
+<div class="bg-canary-cream border border-sand-border p-6 rounded-xl hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-sand-neutral flex items-center justify-center text-clay-terracotta mb-4">
+<span class="material-symbols-outlined text-[28px]">psychology_alt</span>
+</div>
+<h3 class="text-title-lg font-title-lg text-forest-canopy mb-2">Estimulación Holística</h3>
+<p class="text-body-sm font-body-sm text-charcoal-muted leading-relaxed">
+            Socialización guiada por temperamento, juegos de olfato, resolución de puzles y acondicionamiento motor libre de sobreexcitación.
+          </p>
+</div>
+<!-- Pilar 3 -->
+<div class="bg-canary-cream border border-sand-border p-6 rounded-xl hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-sand-neutral flex items-center justify-center text-clay-terracotta mb-4">
+<span class="material-symbols-outlined text-[28px]">security</span>
+</div>
+<h3 class="text-title-lg font-title-lg text-forest-canopy mb-2">Seguridad &amp; Transparencia 24/7</h3>
+<p class="text-body-sm font-body-sm text-charcoal-muted leading-relaxed">
+            Transmisión continua a través de cámaras HD en nuestra app para tutores, esclusas dobles perimetrales y monitores certificados.
+          </p>
+</div>
+<!-- Pilar 4 -->
+<div class="bg-canary-cream border border-sand-border p-6 rounded-xl hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-sand-neutral flex items-center justify-center text-clay-terracotta mb-4">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+</div>
+<h3 class="text-title-lg font-title-lg text-forest-canopy mb-2">Sinergia Total en un Club</h3>
+<p class="text-body-sm font-body-sm text-charcoal-muted leading-relaxed">
+            Hotel, guardería, celebraciones y adiestramiento de obediencia coordinados bajo la misma dirección etológica en Coyoacán.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 5. SECCIÓN DE VISITA, UBICACIÓN & FORMULARIO ================= -->
+<section class="py-20 md:py-28 bg-surface-container border-t border-sand-border" id="ubicacion">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Info Col (Left) -->
+<div class="lg:col-span-5 space-y-8">
+<div>
+<span class="text-label-md font-label-md text-clay-terracotta tracking-widest uppercase">Ven a Conocernos</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-forest-canopy mt-1">
+              Un santuario en el corazón de Coyoacán
+            </h2>
+<p class="text-body-md font-body-md text-charcoal-muted mt-3">
+              Amacuzac 3 ofrece un oasis protegido del tráfico y ruido de la ciudad, diseñado para la tranquilidad de tu perro y tu total confort.
+            </p>
+</div>
+<!-- Dirección & Horarios Cards -->
+<div class="space-y-4">
+<div class="flex items-start gap-4 p-4 rounded-xl bg-canary-cream border border-sand-border">
+<div class="w-10 h-10 rounded-lg bg-sage-wash flex items-center justify-center text-forest-canopy shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[22px]">pin_drop</span>
+</div>
+<div>
+<p class="text-title-md font-title-md text-forest-canopy">Dirección Oficial</p>
+<p class="text-body-sm font-body-sm text-charcoal-muted">Amacuzac 3, Col. Coyoacán, Ciudad de México, CDMX.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl bg-canary-cream border border-sand-border">
+<div class="w-10 h-10 rounded-lg bg-sage-wash flex items-center justify-center text-forest-canopy shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[22px]">schedule</span>
+</div>
+<div>
+<p class="text-title-md font-title-md text-forest-canopy">Horarios de Atención</p>
+<p class="text-body-sm font-body-sm text-charcoal-muted"><strong>Lunes a Sábado:</strong> 7:30 AM – 8:00 PM</p>
+<p class="text-body-sm font-body-sm text-charcoal-muted"><strong>Domingo Club Familiar &amp; Bark-Days:</strong> 9:00 AM – 5:00 PM</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl bg-canary-cream border border-sand-border">
+<div class="w-10 h-10 rounded-lg bg-sage-wash flex items-center justify-center text-forest-canopy shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[22px]">contact_phone</span>
+</div>
+<div>
+<p class="text-title-md font-title-md text-forest-canopy">Contacto Directo Concierge</p>
+<p class="text-body-sm font-body-sm text-charcoal-muted">WhatsApp: +52 55 1234 5678 · Teléfono Club: 55 9876 5432</p>
+</div>
+</div>
+</div>
+<!-- Map placeholder frame -->
+<div class="rounded-xl overflow-hidden border border-sand-border h-48 bg-canary-cream relative">
+<img class="w-full h-full object-cover" data-alt="An architectural map style snapshot showing the historic neighborhood of Coyoacán in Mexico City with calm residential cobblestone streets, leafy trees, and warm terracotta rooftops." data-location="Coyoacan Mexico City" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJWXpoZLCzbdM8GsZJRnTns7PjO_Fual6EbW_6TEDBAGyD_YSmFyIHKbp_KbAQqjdABCsdDvEVs-pr2eIOO2nviJ_2gn_qcudvhIkdQp9mtGRbB8iExmFaN00Mj9LBeOwdjkmfCUmm9p0xgOSyZ34Yu5bmKIlKqwPnAfQdCn1AR2YbHQxsRzRdMtN6oehL3R6OzoE8ylQSfv8TYM_QjsOOhon4kl69oVBTDGXOkynuR8ULgBa2BkPg"/>
+<div class="absolute inset-0 bg-forest-canopy/10 backdrop-blur-[1px] flex items-center justify-center">
+<div class="bg-canary-cream px-4 py-2 rounded-lg border border-sand-border shadow-md flex items-center gap-2">
+<span class="material-symbols-outlined text-clay-terracotta text-[20px]">location_on</span>
+<span class="text-title-md font-title-md text-forest-canopy text-sm">Amacuzac 3, Coyoacán</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Direct Booking / Assessment Form (Right) -->
+<div class="lg:col-span-7" id="agendar">
+<div class="bg-canary-cream border border-sand-border rounded-xl p-8 md:p-10 shadow-lg">
+<div class="mb-6">
+<span class="text-label-sm font-label-sm text-clay-terracotta uppercase tracking-wider">Citas &amp; Cotizaciones</span>
+<h3 class="text-headline-md font-headline-md text-forest-canopy mt-1">
+                Agenda tu Valoración Conductual
+              </h3>
+<p class="text-body-sm font-body-sm text-charcoal-muted mt-1">
+                Completa tus datos y un etólogo del club te contactará vía WhatsApp para confirmar fecha y horario de bienvenida.
+              </p>
+</div>
+<form class="space-y-5" onsubmit="event.preventDefault(); alert('¡Gracias! Hemos recibido tu solicitud para Perro Training Club Canino Boutique. Nos pondremos en contacto vía WhatsApp de inmediato.');">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-label-sm font-label-sm uppercase text-charcoal-muted mb-1.5">Nombre del Tutor</label>
+<input class="w-full bg-canary-cream border border-sand-border rounded-lg px-4 py-3 text-body-md font-body-md text-deep-charcoal focus:border-clay-terracotta focus:ring-1 focus:ring-clay-terracotta transition-colors" placeholder="Tu nombre completo" required="" type="text"/>
+</div>
+<div>
+<label class="block text-label-sm font-label-sm uppercase text-charcoal-muted mb-1.5">WhatsApp Móvil</label>
+<input class="w-full bg-canary-cream border border-sand-border rounded-lg px-4 py-3 text-body-md font-body-md text-deep-charcoal focus:border-clay-terracotta focus:ring-1 focus:ring-clay-terracotta transition-colors" placeholder="Ej. 55 1234 5678" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-label-sm font-label-sm uppercase text-charcoal-muted mb-1.5">Nombre de tu Perro</label>
+<input class="w-full bg-canary-cream border border-sand-border rounded-lg px-4 py-3 text-body-md font-body-md text-deep-charcoal focus:border-clay-terracotta focus:ring-1 focus:ring-clay-terracotta transition-colors" placeholder="Nombre de tu mejor amigo" required="" type="text"/>
+</div>
+<div>
+<label class="block text-label-sm font-label-sm uppercase text-charcoal-muted mb-1.5">Raza / Tamaño y Edad</label>
+<input class="w-full bg-canary-cream border border-sand-border rounded-lg px-4 py-3 text-body-md font-body-md text-deep-charcoal focus:border-clay-terracotta focus:ring-1 focus:ring-clay-terracotta transition-colors" placeholder="Ej. Golden, 2 años / Mestizo chico" required="" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-label-sm font-label-sm uppercase text-charcoal-muted mb-1.5">Servicio de Mayor Interés</label>
+<select class="w-full bg-canary-cream border border-sand-border rounded-lg px-4 py-3 text-body-md font-body-md text-deep-charcoal focus:border-clay-terracotta focus:ring-1 focus:ring-clay-terracotta transition-colors">
+<option>Valoración Conductual y Adiestramiento Cognitivo</option>
+<option>Membresía VIP Day Club (Guardería)</option>
+<option>Cotización Fiesta Bark-Days (Cumpleaños canino)</option>
+<option>Reserva de Suites Hotel Boutique Sin Jaulas</option>
+<option>Paquete Refresh de Obediencia durante estancia</option>
+</select>
+</div>
+<div>
+<label class="block text-label-sm font-label-sm uppercase text-charcoal-muted mb-1.5">Comentarios sobre su temperamento o necesidades</label>
+<textarea class="w-full bg-canary-cream border border-sand-border rounded-lg px-4 py-2.5 text-body-md font-body-md text-deep-charcoal focus:border-clay-terracotta focus:ring-1 focus:ring-clay-terracotta transition-colors" placeholder="¿Es sociable con otros perros? ¿Tiene alguna fobia o dieta específica?" rows="3"></textarea>
+</div>
+<div class="flex items-start gap-2.5 pt-1">
+<input class="mt-1 rounded text-clay-terracotta focus:ring-clay-terracotta border-sand-border" id="terms" required="" type="checkbox"/>
+<label class="text-body-sm font-body-sm text-charcoal-muted" for="terms">
+                  Confirmo que mi perro cuenta con cartilla de vacunación vigente (o en proceso) y acepto la política de valoración conductual previa.
+                </label>
+</div>
+<button class="w-full py-3.5 px-6 rounded-lg bg-clay-terracotta text-canary-cream font-title-md hover:bg-clay-terracotta-dark shadow-md hover:-translate-y-0.5 transition-all duration-200" type="submit">
+                Confirmar Solicitud de Cita
+              </button>
+</form>
+</div>
+</div>
+</div>
+<!-- Quick FAQ Grid -->
+<div class="mt-20 pt-16 border-t border-sand-border">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="text-label-md font-label-md text-clay-terracotta tracking-widest uppercase">Preguntas Frecuentes</span>
+<h3 class="text-headline-md font-headline-md text-forest-canopy mt-1">
+            Todo lo que necesitas saber antes de tu primera visita
+          </h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 rounded-xl bg-canary-cream border border-sand-border">
+<h4 class="text-title-md font-title-md text-forest-canopy mb-2">¿Cuáles son los requisitos de vacunación?</h4>
+<p class="text-body-sm font-body-sm text-charcoal-muted leading-relaxed">
+              Esquema séxtuple/múltiple vigente, antirrábica anual y vacuna contra Bordetella (tos de las perreras), además de desparasitación interna y pipeta externa al día.
+            </p>
+</div>
+<div class="p-6 rounded-xl bg-canary-cream border border-sand-border">
+<h4 class="text-title-md font-title-md text-forest-canopy mb-2">¿Cómo funciona la valoración de temperamento?</h4>
+<p class="text-body-sm font-body-sm text-charcoal-muted leading-relaxed">
+              Sesión de 30-45 minutos con nuestros etólogos en Amacuzac 3 para evaluar lenguaje corporal, manejo con otros perros y niveles de estrés antes de integrarse a la manada.
+            </p>
+</div>
+<div class="p-6 rounded-xl bg-canary-cream border border-sand-border">
+<h4 class="text-title-md font-title-md text-forest-canopy mb-2">¿Cómo se organizan los grupos en guardería?</h4>
+<p class="text-body-sm font-body-sm text-charcoal-muted leading-relaxed">
+              Por compatibilidad etológica y tamaño: cachorros, perros tranquilos o seniors, y perros activos con alta demanda de juego en áreas y patios independientes.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= FOOTER (SHARED COMPONENT) ================= -->
+<footer class="w-full bg-surface-container border-t border-sand-border">
+<div class="max-w-7xl mx-auto px-6 py-12 md:py-16 flex flex-col gap-8">
+<!-- Top Row: Identity and Quick Navigation -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start justify-between">
+<div class="md:col-span-5 space-y-3">
+<span class="text-headline-sm font-headline-sm text-forest-canopy tracking-tight">Perro Training — Club Canino Boutique</span>
+<p class="text-body-sm font-body-sm text-charcoal-muted max-w-sm">
+            El primer club canino boutique de Coyoacán. Bienestar, hotelería sin jaulas y educación cognitiva ética basada en la filosofía «aprender jugando».
+          </p>
+<div class="flex items-center gap-2 pt-2 text-charcoal-muted">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="text-body-sm font-body-sm">Amacuzac 3, Coyoacán, Ciudad de México</span>
+</div>
+</div>
+<div class="md:col-span-7 flex flex-wrap gap-x-8 gap-y-3 md:justify-end items-center">
+<a class="text-charcoal-muted text-body-sm hover:text-clay-terracotta hover:underline duration-200" href="#servicios">Adiestramiento Cognitivo</a>
+<a class="text-charcoal-muted text-body-sm hover:text-clay-terracotta hover:underline duration-200" href="#servicios">Guardería &amp; Day Club</a>
+<a class="text-charcoal-muted text-body-sm hover:text-clay-terracotta hover:underline duration-200" href="#servicios">Bark-Days Caninos</a>
+<a class="text-charcoal-muted text-body-sm hover:text-clay-terracotta hover:underline duration-200" href="#servicios">Suites Boutique</a>
+<a class="text-charcoal-muted text-body-sm hover:text-clay-terracotta hover:underline duration-200" href="#servicios">Café Dog-Friendly</a>
+<a class="text-charcoal-muted text-body-sm hover:text-clay-terracotta hover:underline duration-200" href="#terminos">Términos y Privacidad</a>
+</div>
+</div>
+<!-- Bottom Copyright Row verbatim from shared json -->
+<div class="pt-8 border-t border-sand-border flex flex-col sm:flex-row items-center justify-between text-body-sm font-body-sm text-charcoal-muted gap-4">
+<p>© 2024 Perro Training Club Canino Boutique. Amacuzac 3, Coyoacán, CDMX. Todos los derechos reservados.</p>
+<div class="flex items-center gap-4">
+<span class="text-label-sm font-label-sm text-forest-canopy uppercase tracking-wider">Coyoacán · CDMX</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
